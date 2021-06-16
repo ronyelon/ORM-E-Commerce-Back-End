@@ -1,5 +1,7 @@
+//Enable access to .env variables
 require('dotenv').config();
 
+//Use environment variables to connect to databse
 const Sequelize = require('sequelize');
 
 const sequelize = process.env.JAWSDB_URL
