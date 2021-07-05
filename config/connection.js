@@ -1,5 +1,3 @@
-const sequelize = require('sequelize');
-
 //Enable access to .env variables
 require('dotenv').config();
 
